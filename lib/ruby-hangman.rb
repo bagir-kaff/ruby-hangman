@@ -39,7 +39,7 @@ module MoreMethods
   def clear
     system 'clear'
   end
-  
+
   def does_continue?
     print 'continue from saved game? (y/n): '
     gets.chomp.downcase == 'y'
@@ -113,7 +113,7 @@ class Hangman
     self.chosen_word = chosen_word
     while guessed_word != chosen_word && failure<10
       display_panel(parts)
-      print "guessed letters = #{guessed_word}"
+      print "****#{guessed_word}****"
       puts
       puts letters
       puts
