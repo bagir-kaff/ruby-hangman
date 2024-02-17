@@ -1,4 +1,5 @@
 # Ruby Hangman 
+![start](screenshots/1.png)![current game](screenshots/2.png)![winning](screenshots/3.png)
  console ruby-based hangman game
 
 cant call instance method from class and cant call class methods from object, without creating a new object
